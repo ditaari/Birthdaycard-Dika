@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>birthday card</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+
+</head>
+<body>
+    <div class="hero">
+        <h1> Welcome Dika</h1>
+        <p>A special day for the most special people. February 23, 2023</p>
+        <div class="custom-shape-divider-top-1677125108">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+    <conten class="card">
+        <figure>
+            <img src="IMG_1379.jpg" alt="my_photo">
+            <figcaption>Happy Birthday Dika</figcaption>
+        </figure>
+    </conten>
+    <div class="caps">
+        <h1>Music Player</h1>
+
+        <div class="music-container" id="music-container">
+          <div class="music-info">
+            <h4 id="title"></h4>
+            <div class="progress-container" id="progress-container">
+              <div class="progress" id="progress"></div>
+            </div>
+          </div>
+    
+          <audio src="music/ukulele.mp3" id="audio"></audio>
+    
+          <div class="img-container">
+            <img src="images/ukulele.jpg" alt="music-cover" id="cover" />
+          </div>
+          <div class="navigation">
+            <button id="prev" class="action-btn">
+              <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+              <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="action-btn">
+              <i class="fas fa-forward"></i>
+            </button>
+          </div>
+        </div>
+    
+        <script src="script.js"></script>
+       </div>
+       
+       <div class="kartu">
+        <h1>greeting card</h1>
+        <p>Wishing you the happiest of birthdays and many more that top the year before! </p>
+        <p>thank you for coming into the world and sharing happiness. </p>
+        <p> hope you can achieve what you want</p>
+        <a href="#" id="open-popup" onclick="showPopup()"><img src="https://media.tenor.com/_IjYfO-KjjAAAAAi/chat-conversation.gif"></a>
+       </div>
+
+       <div id="popup">
+        <h2>something you want</h2>
+        <p>something you want as a gift for your 14th birthday</p>
+        <textarea id="message" placeholder="type your message here"></textarea>
+        <button onclick="sendWhatsApp()">send</button>
+        <a href="#" onclick="hidePopup()">cancel</a>
+      </div>
+      
+      
+       <div class="wish"><center>--------------------</center></div>
+
+</body>
+</html>
